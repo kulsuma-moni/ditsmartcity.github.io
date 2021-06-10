@@ -16930,19 +16930,20 @@ z-index: 0;
 		z-index: -1;
 	}
 	.ticket_booking_box{
-		position: absolute;
-		top: 18%;
-		left: 20%;
-		background: linear-gradient(45deg, #3b2352,transparent);
-		padding: 50px 60px 30px;
-		box-shadow: 10px 0px 35px #071c558f;
-		width: 800px;
-		.t-check-in, .t-check-out, .t-datepicker {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    background: linear-gradient(45deg, #3b2352,transparent);
+    padding: 50px 60px 30px;
+    box-shadow: 10px 0px 35px #071c558f;
+    width: 800px;
+    .t-check-in,.t-check-out,.t-datepicker{
 			display: flex;
 			justify-content: space-between;
 			position: relative;
-			float: none;
-			width: 100%;
+			// float: none;
+			// width: 100%;
+      width: 328px !important;
 			span{
 				font-size: 14px;
 				line-height: 1.5;
@@ -16961,7 +16962,7 @@ z-index: 0;
 
 		}
 		.t-check-in, .t-check-out {
-			width: 326px;
+			// width: 326px;
 			margin-bottom: 10px;
 			margin-top: 10px;
 			border-color:transparent !important;
