@@ -12085,7 +12085,8 @@ z-index: 0;
 			.facilitics_list{
 				// margin-bottom: 20px;
 				ul{
-					display: inline-block;
+					// display: inline-block;
+          display: block;
 					li{
 						width: 50%;
 						float: left;
@@ -16243,11 +16244,11 @@ z-index: 0;
         border-right: 10px solid $color2
     }
   .tourist_banner_content{
-	position: absolute;
-	top: 25%;
-	left: 0;
-	right: 0;
-	z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    z-index: 1;
+    width: 90%;
     h1{
       color: #fff;
       font-size: 60px;
@@ -16258,15 +16259,15 @@ z-index: 0;
     }
     p{
       color: #fff;
-      font-size: 15px;
+      font-size: 18px;
       line-height: 1.5;
     }
 	.tour_search {
-		width: 65%;
-		margin: 50px auto 0;
-		position: relative;
-		background: #fff;
-		padding:30px;
+    width: 74%;
+    margin: 50px auto 0;
+    position: relative;
+    background: #fff;
+    padding: 30px;
 		.form-group{
 			margin-bottom: 0;
 		}
@@ -16275,12 +16276,12 @@ z-index: 0;
 			background: #fff;
 			color: $text_color;
 			text-transform: capitalize;
-			padding-left: 26px;
+			padding:12px 0 12px 26px;
 			border: 1px solid rgb(236, 235, 235);
 			&::placeholder{
 				background: transparent;
 				font-size: 14px;
-				line-height:1.5;
+				line-height:20px;
 				color: $text_color;
 				font-weight:400;
 			}
@@ -16305,8 +16306,8 @@ z-index: 0;
 		}
 		.tour_loc_icon{
 			position: absolute;
-			top: 40%;
-			left: 4%;
+      top: 38%;
+      left: 4%;
 			i{
 				font-size: 16px;
 				color: $basic_color_3;
@@ -17770,8 +17771,11 @@ z-index: 0;
 				}
 			}
 		}
+    #navbar_top.fixed-top_on_e{
+			top: 40% !important;
+		}
 		#navbar_top.fixed-top{
-			top: 4%;
+			top: 16%;
 			right: 10%;
 			width: 24%;
 			left: unset;

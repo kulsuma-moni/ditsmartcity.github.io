@@ -90,7 +90,7 @@
 		</div>
 	</section>
 	<!-- MIDDLE CONTENT AREA END -->
-	<div class="tour_details_area sm_section_padding_3">
+	<div class="tour_details_area sm_section_padding_3" id="t_ur">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
@@ -252,7 +252,7 @@
 								<h2>Ratergul</h2>
 							</div>
 						</div>
-						<div class="book_trip_form content_box_shadow">
+						<!-- <div class="book_trip_form content_box_shadow">
 							<h4>Tour booking</h4>
 							<form>
 								<div class="form-group">
@@ -274,7 +274,7 @@
 									<input type="submit" value="submit" name="submit" class="form-control">
 								</div>
 							</form>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -527,6 +527,7 @@
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script src="assets/js/plugin/ziehharmonika.js"></script>
 	<script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+ 
     <!--=== Custom JS ===-->
     <script src="assets/js/main.js"></script>
 	<script>
@@ -584,17 +585,13 @@
 	</script>
 	<script>
 		  window.addEventListener('scroll', function() {
-      if (window.scrollY > 600) {
+      if (window.scrollY >600) {
         document.getElementById('navbar_top').classList.add('fixed-top');
-        // add padding top to show content behind navbar
-        navbar_height = document.querySelector('.navbar').offsetHeight;
-        document.body.style.paddingTop = navbar_height + 'px';
       } else {
         document.getElementById('navbar_top').classList.remove('fixed-top');
-         // remove padding top from body
-        document.body.style.paddingTop = '0';
       } 
   });
+  
 	</script>
 	<script>
 			$(function() {

@@ -521,7 +521,7 @@
     margin: 30px auto 0;
   }
   .tourist_banner_area .tourist_banner_content .tour_search .tour_loc_icon {
-    top: 16%;
+    top: 15%;
     left: 10%;
   }
   .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
@@ -551,8 +551,11 @@
     border: 1px solid #ecebeb;
   }
   .tourist_banner_area .tourist_banner_content .tour_search .btn {
-    top: 83%;
-    right: 70px;
+    top: 78%;
+    right: 54px;
+  }
+  .toure_package_area.sm_section_padding {
+    padding-top: 110px;
   }
   .adventure_area .ad_titel h4 {
     font-size: 38px;
@@ -661,6 +664,12 @@
   }
   .tour_details_area .tour_details_right .book_trip_form {
     margin-top: 30px;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-right {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-left {
+    display: none;
   }
 }
 
@@ -1160,8 +1169,14 @@
     border: 1px solid #ecebeb;
   }
   .tourist_banner_area .tourist_banner_content .tour_search .btn {
-    top: 83%;
-    right: 196px;
+    top: 79%;
+    right: 156px;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-right {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-left {
+    display: none;
   }
   .tour_list_area .filter_menu {
     text-align: left !important;
@@ -1537,11 +1552,18 @@
   .sidebar_area {
     margin-top: 40px;
   }
-  .tourist_banner_area {
-    height: 70vh;
-  }
   .tourist_banner_area .tourist_banner_content {
     width: 100%;
+    left: 0;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_loc_icon {
+    left: 4%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
+    left: 26%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
+    left: 27%;
   }
   .tourist_banner_area .tourist_banner_content h1 {
     font-size: 50px;
@@ -1570,14 +1592,8 @@
   .tourist_banner_area .tourist_banner_content .tour_search .tour_type {
     right: 24%;
   }
-  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
-    left: 28%;
-  }
   .tourist_banner_area .tourist_banner_content .tour_search .flg_icon {
-    right: 44%;
-  }
-  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
-    left: 29%;
+    right: 46%;
   }
   .tour_list_area .filter_menu {
     text-align: left !important;
@@ -1607,6 +1623,12 @@
     margin-top: 30px;
   }
   .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-right {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-left {
     display: none;
   }
 }
@@ -1881,6 +1903,18 @@
   .tour_details_area .tour_details_right #navbar_top.fixed-top {
     top: 9%;
   }
+  .tourist_banner_area .tourist_banner_content .tour_search .flg_icon {
+    right: 44%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_type {
+    right: 22%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
+    left: 27%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
+    left: 28%;
+  }
 }
 
 @media (min-width: 1040px) and (max-width: 1080px) {
@@ -1904,6 +1938,9 @@
 @media (min-width: 1200px) and (max-width: 1338px) {
   .smart_city_area .hero_btn ul li {
     margin-right: 4px;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search {
+    width: 82%;
   }
 }
 
