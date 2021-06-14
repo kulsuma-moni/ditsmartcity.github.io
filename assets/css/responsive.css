@@ -636,6 +636,32 @@
     font-size: 12px;
     padding: 6px 11px;
   }
+  .tour_details_area .tour_details_left .over_view {
+    padding: 30px 0px;
+  }
+  .tour_details_area .tour_details_left .tour_overview .distance .dis_num {
+    font-size: 40px;
+  }
+  .tour_details_area .tour_details_left .tour_overview {
+    display: block;
+  }
+  .tour_details_area .tour_details_left .tour_overview .distance {
+    width: 100%;
+    border-right: 1px solid transparent;
+  }
+  .tour_details_area .tour_details_left .tour_overview .location {
+    margin: 55px 0;
+    width: 100%;
+  }
+  .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
+  .tour_details_area .tour_details_left .faq_accoridion_area #accordion .card .card-header h5 button {
+    font-size: 14px;
+  }
+  .tour_details_area .tour_details_right .book_trip_form {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1182,6 +1208,15 @@
   section.blog_page_area.sm_section_padding {
     padding-top: 180px;
   }
+  .tour_details_area .tour_details_left .over_view {
+    padding: 30px 10px;
+  }
+  .tour_details_area .tour_details_right .book_trip_form {
+    margin-top: 30px;
+  }
+  .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1568,6 +1603,12 @@
     left: 4%;
     width: 90%;
   }
+  .tour_details_area .tour_details_right .book_trip_form {
+    margin-top: 30px;
+  }
+  .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
@@ -1833,6 +1874,12 @@
   }
   .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
     width: 316px !important;
+  }
+  .tour_details_area .tour_details_left .over_view {
+    padding: 30px 20px;
+  }
+  .tour_details_area .tour_details_right #navbar_top.fixed-top {
+    top: 9%;
   }
 }
 
