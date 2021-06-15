@@ -17499,7 +17499,7 @@ z-index: 0;
 				font-weight: 600;
 				text-transform: uppercase;
 				line-height: 1.5;
-				font-size:36px;
+				font-size:40px;
 				color: $basic_color_3;
 			}
 		}
@@ -17541,11 +17541,12 @@ z-index: 0;
 					margin-bottom: 7px;
 				}
 				.adres{
-					font-size: 20px;
+					font-size: 24px;
 					line-height: 1.3;
 					color: $basic_color_3;
 					font-weight: 600;
 					margin-bottom: 0px;
+					letter-spacing: 1px;
 				}
 			}
 		}
@@ -17554,12 +17555,12 @@ z-index: 0;
 				font-weight: 600;
 				text-transform: capitalize;
 				line-height: 1.5;
-				font-size:22px;
+				font-size:30px;
 				color: $basic_color_3;
 			}
 		}
 		p{
-			font-size: 14px;
+			font-size: 16px;
 			line-height: 1.5;
 			color: $color1;
 			font-weight: 400;
@@ -17573,8 +17574,8 @@ z-index: 0;
 					border-left: 4px solid $basic_color_3;
 					margin-bottom: 25px;
 					span{
-						font-size: 16px;
-						color:$color1;
+						font-size: 18px;
+						color:#161616;
 						font-weight: 600;
 						i{
 							font-size: 30px;
@@ -17665,13 +17666,14 @@ z-index: 0;
 						h5{
                             button{
                                 width: 100%;
-                                color: #000;
+                                color: $text_color;
                                 text-transform: capitalize;
-                                font-size: 16px;
+                                font-size: 18px;
                                 line-height: 1.5;
                                 text-decoration: none;
                                 position: relative;
 								text-align: left;
+								font-weight: 600;
                                 i{
                                     margin-left: 10px;
                                     font-size: 14px;
@@ -17736,6 +17738,17 @@ z-index: 0;
                     }
                 }
             }
+		}
+		.destination_location_map{
+			h3{
+				color: #161616;
+				text-transform: capitalize;
+				font-size: 16px !important;
+				line-height: 1.4;
+				font-weight: 600;
+				letter-spacing: 1.3px;
+				margin-bottom: 16px;
+			}
 		}
 	}
 	.tour_details_right{
@@ -17931,5 +17944,23 @@ z-index: 0;
 		top: 30px;
 		opacity: 0;
 		-webkit-transform: scaleY(1.2) scaleX(0.8);
+	}
+}
+.middle_content_area.tour_detail_banner {
+    position: relative;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+	height: 350px;
+	&::after{
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: transparent;
 	}
 }
